@@ -224,6 +224,7 @@ section .content .details strong {
     margin: 1.5rem auto;
     background-color: #fff;
     border-radius: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .inner-container {
@@ -432,6 +433,12 @@ section .content .details strong {
 }
 
 @media screen and (min-width:601px){
+
+    .dash-container {
+    
+        padding-bottom: 0;
+    }
+
     .dash-container .emp-details {
         width: 100%;
         margin: 0 0;
