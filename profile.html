@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image" href="img/profile.ico">
+    <style>
+        td {
+            border: 1px solid #cfc9c9;
+            padding: 0.3rem 0.5rem;
+        }
+    </style>
 
     <title>My Profile</title>
 </head>
 
 <body>
     <div class="page-wrapper">
-        <header>
+        <header id="navbar">
             <nav>
                 <div class="logo">
-                    <img src="img/logo.PNG" alt="Company Logo">
+                    <img src="img/nobglogo.png" alt="Company Logo">
                 </div>
                 <div class="nav-links">
                     <a href="profile.html" class="active">My Profile</a>
@@ -27,34 +34,72 @@
             </nav>
         </header>
         <section>
-            <div class="heading">
-                <h2>My Profile</h2>
+
+            <div class="profile">
+                <img src="img/profilephoto.jpg" class="profile-photo" alt="Profile Photo">
+                <p class="profile-name">John Smith</p>
             </div>
-            <div class="content">
-                <div class="details">
-                    <p>Full Name:</p>
-                    <strong>Marshal Malean</strong>
+            <div class="gen-info">
+                <div class="gen-info-heading">
+                    <img class="info-icon" src="img/id-card.png" alt="Info">
+                    <span>General Information</span>
                 </div>
-                <div class="details">
-                    <p>DOB:</p>
-                    <strong>June 22,2002</strong>
-                </div>
-                <div class="details">
-                    <p>Adress:</p>
-                    <strong>Sarsole Gaon, Sector 6, Nerul, Navi Mumbai, Maharashtra 400706
-                    </strong>
-                </div>
-                <div class="details">
-                    <p>Qualification:</p>
-                    <strong>Bsc,Computer Science</strong>
-                </div>
-                <div class="details">
-                    <p>Skills:</p>
-                    <strong>HTML, CSS, JavaScript, PHP, Python</strong>
+
+                <div class="basic-info">
+                    <table class="profile-table">
+                        <tr>
+                            <th>DOB</th>
+                            <td>June 28, 1998</td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>Townsville, USA </td>
+                        </tr>
+                        <tr>
+                            <th>Qualification</th>
+                            <td>Bsc,Computer Science </td>
+                        </tr>
+                        <tr>
+                            <th>Skills</th>
+                            <td>HTML, CSS, JavaScript</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
+            <div class="other-info">
+                <div class="gen-info-heading">
+                    <img class="info-icon" src="img/id-card.png" alt="Info">
+                    <span>Other Information</span>
+                </div>
+                <div class="other-info-content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum saepe iure debitis inventore
+                        iste
+                        quam fugit rem earum, facere incidunt laudantium sunt quibusdam porro eligendi. Lorem, ipsum
+                        dolor
+                        sit amet consectetur adipisicing elit. Dolor, sequi? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Aliquam et, tenetur quidem totam porro accusantium natus a molestiae,
+                        culpa
+                        optio
+                        fugit qui vel nesciunt quis. Provident nesciunt, maiores eum ullam quisquam ad possimus
+                        iure,
+                        vero
+                        animi laborum inventore, quod quis. A, quod eligendi soluta perspiciatis unde deserunt
+                        dolores?
+                        Expedita, praesentium esse aut ea doloremque molestias fugiat corrupti! Mollitia, quo
+                        sapiente
+                        consequatur nisi quia esse nam necessitatibus recusandae aliquam unde voluptatibus numquam
+                        assumenda
+                        error libero quos hic labore quisquam tenetur maiores officiis velit, qui harum sed ipsa?
+                        Earum
+                        sint
+                        magnam eaque modi, cum accusantium laudantium ut, deleniti qui odit sequi iure!</p>
+                </div>
+
+            </div>
+
         </section>
     </div>
+    <script src="navbar.js"></script>
 
 </body>
 
